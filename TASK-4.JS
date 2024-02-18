@@ -1,6 +1,6 @@
 // DISPLAYING WELCOME MESSAGE
 
- /*function displaywelcomemessage() {
+/* function displaywelcomemessage() {
     let username = prompt("ENTER YOUR NAME");
     alert("welcome "+username);
 }
@@ -24,4 +24,10 @@ function generateQuote() {
     document.getElementById('quotesOfIqbalAndQuaid').innerText = generateQuote(); */
     
 // GENERATING A RANDOM NUMBER BETWEEN 1 - 100 
+function generatenumber() {
+    const randomnumber = Math.floor(Math.random()*100);
+    document.write(randomnumber)
+    return randomnumber;
+    }
 
+generatenumber()
