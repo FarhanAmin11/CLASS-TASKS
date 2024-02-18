@@ -30,4 +30,4 @@ function generatenumber() {
     return randomnumber;
     }
 
-generatenumber()
+generatenumber();
